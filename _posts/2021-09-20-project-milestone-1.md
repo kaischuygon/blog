@@ -16,7 +16,7 @@ I will be building a complementary color generator. The user will input a color 
 * The intended audience is designers and digital artists. 
 
 ### Similar Apps
-* A website I use currently is [Adobe Color](color.adobe.com). This calculates complementary colors but I find it slow to use and requires users to sign into an account.
+* A website I use currently is [Adobe Color](https://color.adobe.com/). This calculates complementary colors but I find it slow to use and requires users to sign into an account.
 * There doesn't seem to be an iPhone app that calculates complementary colors.
 
 ### Sources
