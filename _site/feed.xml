@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="kaischuygon.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="kaischuygon.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-09-14T10:13:16-06:00</updated><id>kaischuygon.github.io/blog/feed.xml</id><title type="html">Kai Schuyler’s Blog</title><subtitle>I'm a junior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.</subtitle><entry><title type="html">Essential Design Principles</title><link href="kaischuygon.github.io/blog/2021/09/13/essential-design-principles.html" rel="alternate" type="text/html" title="Essential Design Principles" /><published>2021-09-13T00:00:00-06:00</published><updated>2021-09-13T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/13/essential-design-principles</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/13/essential-design-principles.html">&lt;p&gt;Video link: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2017/802/&quot;&gt;Essential Design Principles&lt;/a&gt;&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="kaischuygon.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="kaischuygon.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-09-20T22:17:21-06:00</updated><id>kaischuygon.github.io/blog/feed.xml</id><title type="html">Kai Schuyler’s Blog</title><subtitle>I'm a junior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.</subtitle><entry><title type="html">Mobile App Dev Project Milestone 1</title><link href="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 1" /><published>2021-09-20T00:00:00-06:00</published><updated>2021-09-20T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/20/project-milestone-1</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;app-description&quot;&gt;App Description&lt;/h3&gt;
+&lt;p&gt;I will be building a complementary color generator. The user will input a color (in hexadecimal or rgb) and the app will calculate complementary colors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;My inspiration
+    &lt;ul&gt;
+      &lt;li&gt;Whenever I’m writing css or using photoshop, I constantly have to lookup complementary colors to generate a cohesive theme for my designs. I usually have a primary color I base my design around so having a way to easily generate colors would be very helpful.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Goals
+    &lt;ul&gt;
+      &lt;li&gt;I want to have an app that calculates complementary colors automatically and shows how the colors would look put next to and in front of each other.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;intended-audience&quot;&gt;Intended Audience&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The intended audience is designers and digital artists.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;similar-apps&quot;&gt;Similar Apps&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A website I use currently is &lt;a href=&quot;color.adobe.com&quot;&gt;Adobe Color&lt;/a&gt;. This calculates complementary colors but I find it slow to use and requires users to sign into an account.&lt;/li&gt;
+  &lt;li&gt;There doesn’t seem to be an iPhone app that calculates complementary colors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sources&quot;&gt;Sources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I will most likely look up algorithms to calculate the complementary colors depending on how difficult I find it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prototype&quot;&gt;Prototype&lt;/h3&gt;</content><author><name></name></author><summary type="html">The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.</summary></entry><entry><title type="html">Essential Design Principles</title><link href="kaischuygon.github.io/blog/2021/09/13/essential-design-principles.html" rel="alternate" type="text/html" title="Essential Design Principles" /><published>2021-09-13T00:00:00-06:00</published><updated>2021-09-13T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/13/essential-design-principles</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/13/essential-design-principles.html">&lt;p&gt;Video link: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2017/802/&quot;&gt;Essential Design Principles&lt;/a&gt;&lt;/p&gt;
 
 &lt;h2 id=&quot;the-principles&quot;&gt;The Principles:&lt;/h2&gt;
 &lt;ol&gt;
