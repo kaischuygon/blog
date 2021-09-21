@@ -23,3 +23,4 @@ I will be building a complementary color generator. The user will input a color 
 * I will most likely look up algorithms to calculate the complementary colors depending on how difficult I find it. 
 
 ### Prototype
+![](https://kaischuyler.com/blog/img/project1paperprototype.jpg)
