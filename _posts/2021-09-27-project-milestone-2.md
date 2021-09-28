@@ -15,7 +15,8 @@ The minimum functionality my app will meet is the following:
 * The app will display those colors and give a "preview" of a simple layout that utilizes those colors.
 
 ### Triadic color computation
-* When I came up with this app idea, I planned to find an algorithm online to calculate triadic colors. I was unable to find anything that does exactly what I want, but I read up on some color theory to come up the following pseudocode algorithm: 
+* When I came up with this app idea, I planned to find an algorithm online to calculate triadic colors. 
+* I was unable to find anything that does exactly what I want, but I read up on some color theory to come up the following pseudocode algorithm: 
 
 ```swift
 func calculateTriad(hex) {
@@ -35,9 +36,10 @@ func calculateTriad(hex) {
 ### Potential problems thus far
 * I am having trouble adding complexity to my idea and am worried my app idea may be too simple. 
 * It may be harder to implement a triad algorithm than I think it will be
+
 ### Prototype
 * I created the following prototype with figma showing a simple version of my planned layout. 
-<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="800" height="450" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7lHdeYU4dRkmKiIpOeGhOK%2FTriad%3Fnode-id%3D5%253A41%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A41%26show-proto-sidebar%3D1" allowfullscreen></iframe>
+<iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="800px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7lHdeYU4dRkmKiIpOeGhOK%2FTriad%3Fnode-id%3D5%253A41%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A41%26show-proto-sidebar%3D1" allowfullscreen></iframe>
 
 ### Screenshots
 ![triad screenshot](../../../img/triadScreenshot.png)
