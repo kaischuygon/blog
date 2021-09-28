@@ -22,7 +22,7 @@ The minimum functionality my app will meet is the following:
 func calculateTriad(hex) {
     // get rgb values from hex (can also be used to update sliders after user input)
     red = hex[0:1]
-    green = hex[2:3]
+    green = hex[2:3] 
     blue = hex[4:5]
 
     // add and subtract by 85 (255 / 3), wrapping around if 0 or 255 is reached
@@ -40,6 +40,3 @@ func calculateTriad(hex) {
 ### Prototype
 * I created the following prototype with figma showing a simple version of my planned layout. 
 <iframe style="border: 1px solid rgba(0, 0, 0, 0.1);" width="100%" height="800px" src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7lHdeYU4dRkmKiIpOeGhOK%2FTriad%3Fnode-id%3D5%253A41%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A41%26show-proto-sidebar%3D1" allowfullscreen></iframe>
-
-### Screenshots
-![triad screenshot](../../../img/triadScreenshot.png)
