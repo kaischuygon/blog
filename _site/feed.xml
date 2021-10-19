@@ -1,4 +1,68 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="kaischuygon.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="kaischuygon.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-09-28T02:39:15-06:00</updated><id>kaischuygon.github.io/blog/feed.xml</id><title type="html">Kai Schuyler’s Blog</title><subtitle>I'm a junior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.</subtitle><entry><title type="html">Mobile App Dev Project Milestone 2</title><link href="kaischuygon.github.io/blog/2021/09/27/project-milestone-2.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 2" /><published>2021-09-27T00:00:00-06:00</published><updated>2021-09-27T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/27/project-milestone-2</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/27/project-milestone-2.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="kaischuygon.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="kaischuygon.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-10-19T02:48:53-06:00</updated><id>kaischuygon.github.io/blog/feed.xml</id><title type="html">Kai Schuyler’s Blog</title><subtitle>I'm a junior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.</subtitle><entry><title type="html">Mobile App Dev Project Milestone 4</title><link href="kaischuygon.github.io/blog/2021/10/19/project-milestone-4.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 4" /><published>2021-10-19T00:00:00-06:00</published><updated>2021-10-19T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/10/19/project-milestone-4</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/10/19/project-milestone-4.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;app-description&quot;&gt;App Description&lt;/h3&gt;
+&lt;p&gt;For this project, I decidd to create a triadic color calculator. The user inputs a color (in hexadecimal or rgb sliders) and the app calculate triadic colors based off the input.&lt;/p&gt;
+
+&lt;h3 id=&quot;mvp-minimum-viable-product&quot;&gt;MVP (Minimum Viable Product)&lt;/h3&gt;
+&lt;p&gt;The minimum functionality I outlined my app would meet is the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Users will be able to enter a color using either hex codes or rgb sliders.&lt;/li&gt;
+  &lt;li&gt;The app will calculate 2 colors from the user’s input.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;/h3&gt;
+&lt;p&gt;I am proud of the app I was able to create with the time I was given, but reflecting back there are definetely things I could improve on before the next project.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Creative Approach
+    &lt;ul&gt;
+      &lt;li&gt;The hardest part creatively for me was definetely coming up with the concept of the app. My knowledge of iOS development definetely limited the app I could make but I think my MVP is a good starting point towards creating an app I could build upon as I continue learning app development.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tactical Approach
+    &lt;ul&gt;
+      &lt;li&gt;I first started my app by creating the layout of the app in a storyboard. This included adding all the visual elements as well as adding  constraints so the layout would work in multiple size screens in portrait mode.&lt;/li&gt;
+      &lt;li&gt;I then added connected outlets and actions to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ViewController.swift&lt;/code&gt; and constrained the user’s input to the values the app will be able to support.&lt;/li&gt;
+      &lt;li&gt;Then I implemented the hex to rgb algorithm so that when the sliders update, the text input updated to match, and vice-versa.&lt;/li&gt;
+      &lt;li&gt;I then implemented a the triadic color algorithm based off some color theory I read up on. I shifted the rgb values twice as follows:&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cp&quot;&gt;# First calculation:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rgb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;brg&lt;/span&gt;
+  &lt;span class=&quot;cp&quot;&gt;# Second calcuation:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;brg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gbr&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Finally, I went back to the storyboard and added constraints to make the application responsive to landscape mode on multiple different screen sizes.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Time allotment
+    &lt;ul&gt;
+      &lt;li&gt;Most of my time for this project was spent on translating hex to rgb, largely because of my infamilarity with Swift.&lt;/li&gt;
+      &lt;li&gt;Another aspect of the project that took a long time was deciding on a algorithm to calculate triadic colors. There are multiple methods for doing this and I spent a long time trying to implement the first solution I found on Google which ended up being a lot more involved than it needed to be.&lt;/li&gt;
+      &lt;li&gt;I was able to get the storyboard done fairly quickly by looking back on class examples.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Things that went well:
+    &lt;ul&gt;
+      &lt;li&gt;I think that the implementation of the color calculate&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Things that didn’t go well:
+    &lt;ul&gt;
+      &lt;li&gt;I started the project too late to create a great UI, the app is definietely usable but lacks a unique UI.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;priorities-for-future-projects&quot;&gt;Priorities for future projects&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Focus on the UI a lot more, it’s arguably just as important as the functionality of the application.&lt;/li&gt;
+  &lt;li&gt;Come up with a more creative app idea.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.</summary></entry><entry><title type="html">Mobile App Dev Project Milestone 2</title><link href="kaischuygon.github.io/blog/2021/09/27/project-milestone-2.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 2" /><published>2021-09-27T00:00:00-06:00</published><updated>2021-09-27T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/27/project-milestone-2</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/27/project-milestone-2.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
 
 &lt;h3 id=&quot;app-description&quot;&gt;App Description&lt;/h3&gt;
 &lt;p&gt;Originally, I planned to create a complementary color generator. I decided to switch to a a triadic color generator so there would be 3 colors total instead of 2. The user will input a color (in hexadecimal or rgb) and the app will calculate triadic colors.&lt;/p&gt;
@@ -8,7 +72,6 @@
 &lt;ul&gt;
   &lt;li&gt;Users will be able to enter a color using either hex codes or rgb sliders.&lt;/li&gt;
   &lt;li&gt;The app will calculate 2 colors from the user’s input.&lt;/li&gt;
-  &lt;li&gt;The app will display those colors and give a “preview” of a simple layout that utilizes those colors.&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;triadic-color-computation&quot;&gt;Triadic color computation&lt;/h3&gt;
@@ -20,7 +83,7 @@
 &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calculateTriad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
     &lt;span class=&quot;c1&quot;&gt;// get rgb values from hex (can also be used to update sliders after user input)&lt;/span&gt;
     &lt;span class=&quot;n&quot;&gt;red&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
-    &lt;span class=&quot;n&quot;&gt;green&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;green&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; 
     &lt;span class=&quot;n&quot;&gt;blue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
 
     &lt;span class=&quot;c1&quot;&gt;// add and subtract by 85 (255 / 3), wrapping around if 0 or 255 is reached&lt;/span&gt;
@@ -41,10 +104,7 @@
 &lt;ul&gt;
   &lt;li&gt;I created the following prototype with figma showing a simple version of my planned layout.&lt;/li&gt;
 &lt;/ul&gt;
-&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1);&quot; width=&quot;100%&quot; height=&quot;800px&quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7lHdeYU4dRkmKiIpOeGhOK%2FTriad%3Fnode-id%3D5%253A41%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A41%26show-proto-sidebar%3D1&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h3 id=&quot;screenshots&quot;&gt;Screenshots&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&quot;../../../img/triadScreenshot.png&quot; alt=&quot;triad screenshot&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.</summary></entry><entry><title type="html">Mobile App Dev Project Milestone 1</title><link href="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 1" /><published>2021-09-20T00:00:00-06:00</published><updated>2021-09-20T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/20/project-milestone-1</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
+&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1);&quot; width=&quot;100%&quot; height=&quot;800px&quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7lHdeYU4dRkmKiIpOeGhOK%2FTriad%3Fnode-id%3D5%253A41%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A41%26show-proto-sidebar%3D1&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.</summary></entry><entry><title type="html">Mobile App Dev Project Milestone 1</title><link href="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 1" /><published>2021-09-20T00:00:00-06:00</published><updated>2021-09-20T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/20/project-milestone-1</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
 
 &lt;h3 id=&quot;app-description&quot;&gt;App Description&lt;/h3&gt;
 &lt;p&gt;I will be building a complementary color generator. The user will input a color (in hexadecimal or rgb) and the app will calculate complementary colors.&lt;/p&gt;

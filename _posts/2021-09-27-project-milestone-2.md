@@ -12,7 +12,6 @@ Originally, I planned to create a complementary color generator. I decided to sw
 The minimum functionality my app will meet is the following:
 * Users will be able to enter a color using either hex codes or rgb sliders. 
 * The app will calculate 2 colors from the user's input. 
-* The app will display those colors and give a "preview" of a simple layout that utilizes those colors.
 
 ### Triadic color computation
 * When I came up with this app idea, I planned to find an algorithm online to calculate triadic colors. 
