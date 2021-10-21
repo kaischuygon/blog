@@ -6,7 +6,7 @@ title:  "Mobile App Dev Project Milestone 4"
 The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.
 
 ### App Description
-For this project, I decidd to create a triadic color calculator. The user inputs a color (in hexadecimal or rgb sliders) and the app calculate triadic colors based off the input.
+For this project, I decided to create a triadic color calculator. The user inputs a color (in hexadecimal or rgb sliders) and the app calculate triadic colors based off the input.
 
 ### MVP (Minimum Viable Product)
 The minimum functionality I outlined my app would meet is the following:

@@ -21,7 +21,7 @@
 title: Kai Schuyler's Blog
 email: kai.schuyler@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  I'm a junior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.
+  I'm a senior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.
 baseurl: "/blog" # the subpath of your site, e.g. /blog
 url: "kaischuygon.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: kaischuyler
