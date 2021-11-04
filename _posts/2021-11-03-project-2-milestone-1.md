@@ -34,4 +34,4 @@ The logic of the game is not too difficult so I do not believe implementing it w
 Rather than coming up with puzzles myself, there are plennty of nonogram puzzles ranging in difficulty accessible online. It would also not be difficult to come up with my own puzzles, a random number generator could be a good approach if I decide to make the puzzles random. 
 
 ## Paper prototype
-![paper prototype](../img/../_site/img/project2paperprototype.png)
+![paper prototype](../../../img/project2paperprototype.png)
