@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Project 2 Milestone 2"
+title:  "Mobile App Dev Project 2 Milestone 1"
 ---
 
 The second project for my mobile app development course is to create a single view interactive Anroid app using Android Studio and written in Kotlin. 
