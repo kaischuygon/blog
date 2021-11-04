@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="kaischuygon.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="kaischuygon.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-10-21T02:01:23-06:00</updated><id>kaischuygon.github.io/blog/feed.xml</id><title type="html">Kai Schuyler’s Blog</title><subtitle>I'm a senior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.</subtitle><entry><title type="html">25 Principles of Mobile App Design</title><link href="kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design.html" rel="alternate" type="text/html" title="25 Principles of Mobile App Design" /><published>2021-10-21T00:00:00-06:00</published><updated>2021-10-21T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design.html">&lt;p&gt;As my Mobile App Development course is moving on from Swift and iOS development to Kotlin and Android development, we were asked to read &lt;em&gt;Principles of Mobile App Design: Engage Users and Drive Conversions&lt;/em&gt; by Jenny Gove, the UX Research Lead at Google.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="kaischuygon.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="kaischuygon.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-11-04T00:28:44-06:00</updated><id>kaischuygon.github.io/blog/feed.xml</id><title type="html">Kai Schuyler’s Blog</title><subtitle>I'm a senior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.</subtitle><entry><title type="html">Project 2 Milestone 2</title><link href="kaischuygon.github.io/blog/2021/11/03/project-2-milestone-1.html" rel="alternate" type="text/html" title="Project 2 Milestone 2" /><published>2021-11-03T00:00:00-06:00</published><updated>2021-11-03T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/11/03/project-2-milestone-1</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/11/03/project-2-milestone-1.html">&lt;p&gt;The second project for my mobile app development course is to create a single view interactive Anroid app using Android Studio and written in Kotlin.&lt;/p&gt;
+
+&lt;p&gt;The project requirements are as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Think of a creative idea or concept&lt;/li&gt;
+  &lt;li&gt;Focus on how the design and interactivity flows for the user&lt;/li&gt;
+  &lt;li&gt;The scope of your project should be larger than that of a lab&lt;/li&gt;
+  &lt;li&gt;Your app should use a constraint layout for an adaptive layout for different device sizes including portrait and landscape orientations&lt;/li&gt;
+  &lt;li&gt;Your app should be complete with a custom theme and launcher icons&lt;/li&gt;
+  &lt;li&gt;Your app should use string resources for text in the user interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;app-description&quot;&gt;App description&lt;/h2&gt;
+&lt;p&gt;For this project, I will be creating a picross (nonogram) puzzle game. A nonogram puzzle is a picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture.&lt;/p&gt;
+
+&lt;p&gt;The user will be faced with a blank puzzle they will be asked to solve. When the puzzle is completed, another puzzle will be generated. The user will also be able to specify the puzzle’s size via 2 sliders controlling the width and height of the puzzle.&lt;/p&gt;
+
+&lt;p&gt;My inspiration for creating this project is to learn how to code game logic for a mobile app. My first project was a triadic color calculator and the most challenging aspect of creating that app was the calculation itself rather something specific to mobile app development. I think that creating a game will be more challenging and will teach me more about android development.&lt;/p&gt;
+
+&lt;p&gt;My goal for this project is to take advantage of the touchscreen input that is not available on other devices, such as laptops. For my web development course, my final project was also a grid puzzle. I think my approach will be very different here because users will have a touchscreen to interact with my game rather a mouse / trackpad. Another goal is to get better at adaptive layouts in Android.&lt;/p&gt;
+
+&lt;h2 id=&quot;intended-audience&quot;&gt;Intended Audience&lt;/h2&gt;
+&lt;p&gt;My intended audience is going to be users that are not very familiar with this type of puzzle.&lt;/p&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+&lt;p&gt;There are other nonogram puzzle games in the app store. The simple UI will differenciate it from other apps and websites that, in my opinion, are very cluttered and can be overwhelming to beginners. My app will also focus on the user interface, which appear not to be the focus on many nonogram apps and websites. Most nonogram puzzles are preset and will reveal an image when completed, mine will instead be randomized and will hopefully be more replayable.&lt;/p&gt;
+
+&lt;p&gt;The logic of the game is not too difficult so I do not believe implementing it would be difficult. Arrays should easily hold the information needed for this game.&lt;/p&gt;
+
+&lt;h2 id=&quot;content-sources&quot;&gt;Content Sources&lt;/h2&gt;
+&lt;p&gt;Rather than coming up with puzzles myself, there are plennty of nonogram puzzles ranging in difficulty accessible online. It would also not be difficult to come up with my own puzzles, a random number generator could be a good approach if I decide to make the puzzles random.&lt;/p&gt;
+
+&lt;h2 id=&quot;paper-prototype&quot;&gt;Paper prototype&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../img/../_site/img/project2paperprototype.png&quot; alt=&quot;paper prototype&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The second project for my mobile app development course is to create a single view interactive Anroid app using Android Studio and written in Kotlin.</summary></entry><entry><title type="html">25 Principles of Mobile App Design</title><link href="kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design.html" rel="alternate" type="text/html" title="25 Principles of Mobile App Design" /><published>2021-10-21T00:00:00-06:00</published><updated>2021-10-21T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design.html">&lt;p&gt;As my Mobile App Development course is moving on from Swift and iOS development to Kotlin and Android development, we were asked to read &lt;em&gt;Principles of Mobile App Design: Engage Users and Drive Conversions&lt;/em&gt; by Jenny Gove, the UX Research Lead at Google.&lt;/p&gt;
 
 &lt;h2 id=&quot;priciple-4-make-it-easy-to-manually-change-location&quot;&gt;Priciple 4: Make it easy to manually change location.&lt;/h2&gt;
 &lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;: There are times when users need to find a store that’s not located nearby. Make manual entry of location and straightforward.&lt;/p&gt;
