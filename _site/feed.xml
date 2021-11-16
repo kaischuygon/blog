@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.1">Jekyll</generator><link href="kaischuygon.github.io/blog/feed.xml" rel="self" type="application/atom+xml" /><link href="kaischuygon.github.io/blog/" rel="alternate" type="text/html" /><updated>2021-11-16T01:14:04-07:00</updated><id>kaischuygon.github.io/blog/feed.xml</id><title type="html">Kai Schuyler’s Blog</title><subtitle>I'm a senior at the University of Colorado at Boulder majoring in Computer Science and minoring in Creative Technology and Design.</subtitle><entry><title type="html">Mobile App Dev Project 2 Milestone 2</title><link href="kaischuygon.github.io/blog/2021/11/16/project-2-milestone-2.html" rel="alternate" type="text/html" title="Mobile App Dev Project 2 Milestone 2" /><published>2021-11-16T00:00:00-07:00</published><updated>2021-11-16T00:00:00-07:00</updated><id>kaischuygon.github.io/blog/2021/11/16/project-2-milestone-2</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/11/16/project-2-milestone-2.html">&lt;p&gt;The second project for my mobile app development course is to create a single view interactive Anroid app using Android Studio and written in Kotlin.&lt;/p&gt;
+
+&lt;p&gt;The project requirements are as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Think of a creative idea or concept&lt;/li&gt;
+  &lt;li&gt;Focus on how the design and interactivity flows for the user&lt;/li&gt;
+  &lt;li&gt;The scope of your project should be larger than that of a lab&lt;/li&gt;
+  &lt;li&gt;Your app should use a constraint layout for an adaptive layout for different device sizes including portrait and landscape orientations&lt;/li&gt;
+  &lt;li&gt;Your app should be complete with a custom theme and launcher icons&lt;/li&gt;
+  &lt;li&gt;Your app should use string resources for text in the user interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;app-description&quot;&gt;App description&lt;/h2&gt;
+&lt;p&gt;For this project, I will be creating a picross (nonogram) puzzle game. A nonogram puzzle is a picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture.&lt;/p&gt;
+
+&lt;h2 id=&quot;mvp-minimum-viable-product&quot;&gt;MVP (Minimum Viable Product)&lt;/h2&gt;
+&lt;p&gt;The minimum functionality I want to be able to accomplish is as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;To write a random picross puzzle generator to make the game replayable without hard coding lots of picross puzzles.&lt;/li&gt;
+  &lt;li&gt;Users will be able to choose the difficulty by utilizing the slider to increase/decrease the puzzle size (from 3 to 8, subject to change).&lt;/li&gt;
+  &lt;li&gt;Users will be able to enter a “safe” mode where they can toggle squares to be unclickable to prevent accidental mistaps.&lt;/li&gt;
+  &lt;li&gt;Users will have a set amount of lives per level, scaled to difficulty.&lt;/li&gt;
+  &lt;li&gt;Users will be able to scrub their current game at any time and restart.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;app-prototype&quot;&gt;App prototype&lt;/h2&gt;
+&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1);&quot; width=&quot;100%&quot; height=&quot;700px&quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2FCHxpfjPtnmGTiDrscs5vkA%2FEndless-Picross%3Fnode-id%3D4%253A2%26starting-point-node-id%3D4%253A2&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">The second project for my mobile app development course is to create a single view interactive Anroid app using Android Studio and written in Kotlin.</summary></entry><entry><title type="html">Mobile App Dev Project 2 Milestone 1</title><link href="kaischuygon.github.io/blog/2021/11/03/project-2-milestone-1.html" rel="alternate" type="text/html" title="Mobile App Dev Project 2 Milestone 1" /><published>2021-11-03T00:00:00-06:00</published><updated>2021-11-03T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/11/03/project-2-milestone-1</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/11/03/project-2-milestone-1.html">&lt;p&gt;The second project for my mobile app development course is to create a single view interactive Anroid app using Android Studio and written in Kotlin.&lt;/p&gt;
+
+&lt;p&gt;The project requirements are as follows:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Think of a creative idea or concept&lt;/li&gt;
+  &lt;li&gt;Focus on how the design and interactivity flows for the user&lt;/li&gt;
+  &lt;li&gt;The scope of your project should be larger than that of a lab&lt;/li&gt;
+  &lt;li&gt;Your app should use a constraint layout for an adaptive layout for different device sizes including portrait and landscape orientations&lt;/li&gt;
+  &lt;li&gt;Your app should be complete with a custom theme and launcher icons&lt;/li&gt;
+  &lt;li&gt;Your app should use string resources for text in the user interface&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;app-description&quot;&gt;App description&lt;/h2&gt;
+&lt;p&gt;For this project, I will be creating a picross (nonogram) puzzle game. A nonogram puzzle is a picture logic puzzles in which cells in a grid must be colored or left blank according to numbers at the side of the grid to reveal a hidden picture.&lt;/p&gt;
+
+&lt;p&gt;The user will be faced with a blank puzzle they will be asked to solve. When the puzzle is completed, another puzzle will be generated. The user will also be able to specify the puzzle’s size via 2 sliders controlling the width and height of the puzzle.&lt;/p&gt;
+
+&lt;p&gt;My inspiration for creating this project is to learn how to code game logic for a mobile app. My first project was a triadic color calculator and the most challenging aspect of creating that app was the calculation itself rather something specific to mobile app development. I think that creating a game will be more challenging and will teach me more about android development.&lt;/p&gt;
+
+&lt;p&gt;My goal for this project is to take advantage of the touchscreen input that is not available on other devices, such as laptops. For my web development course, my final project was also a grid puzzle. I think my approach will be very different here because users will have a touchscreen to interact with my game rather a mouse / trackpad. Another goal is to get better at adaptive layouts in Android.&lt;/p&gt;
+
+&lt;h2 id=&quot;intended-audience&quot;&gt;Intended Audience&lt;/h2&gt;
+&lt;p&gt;My intended audience is going to be users that are not very familiar with this type of puzzle.&lt;/p&gt;
+
+&lt;h2 id=&quot;research&quot;&gt;Research&lt;/h2&gt;
+&lt;p&gt;There are other nonogram puzzle games in the app store. The simple UI will differenciate it from other apps and websites that, in my opinion, are very cluttered and can be overwhelming to beginners. My app will also focus on the user interface, which appear not to be the focus on many nonogram apps and websites. Most nonogram puzzles are preset and will reveal an image when completed, mine will instead be randomized and will hopefully be more replayable.&lt;/p&gt;
+
+&lt;p&gt;The logic of the game is not too difficult so I do not believe implementing it would be difficult. Arrays should easily hold the information needed for this game.&lt;/p&gt;
+
+&lt;h2 id=&quot;content-sources&quot;&gt;Content Sources&lt;/h2&gt;
+&lt;p&gt;Rather than coming up with puzzles myself, there are plennty of nonogram puzzles ranging in difficulty accessible online. It would also not be difficult to come up with my own puzzles, a random number generator could be a good approach if I decide to make the puzzles random.&lt;/p&gt;
+
+&lt;h2 id=&quot;paper-prototype&quot;&gt;Paper prototype&lt;/h2&gt;
+&lt;p&gt;&lt;img src=&quot;../../../img/project2paperprototype.png&quot; alt=&quot;paper prototype&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The second project for my mobile app development course is to create a single view interactive Anroid app using Android Studio and written in Kotlin.</summary></entry><entry><title type="html">25 Principles of Mobile App Design</title><link href="kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design.html" rel="alternate" type="text/html" title="25 Principles of Mobile App Design" /><published>2021-10-21T00:00:00-06:00</published><updated>2021-10-21T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/10/21/25-principles-of-mobile-design.html">&lt;p&gt;As my Mobile App Development course is moving on from Swift and iOS development to Kotlin and Android development, we were asked to read &lt;em&gt;Principles of Mobile App Design: Engage Users and Drive Conversions&lt;/em&gt; by Jenny Gove, the UX Research Lead at Google.&lt;/p&gt;
+
+&lt;h2 id=&quot;priciple-4-make-it-easy-to-manually-change-location&quot;&gt;Priciple 4: Make it easy to manually change location.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;: There are times when users need to find a store that’s not located nearby. Make manual entry of location and straightforward.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Good Example&lt;/strong&gt;: The transportation app &lt;a href=&quot;https://transitapp.com/&quot;&gt;&lt;em&gt;Transit&lt;/em&gt;&lt;/a&gt; lets you drag anywhere on the map to change your location to see transit lines at whatever location you want quickly. I also allows you to manually enter an address.&lt;/p&gt;
+
+&lt;h2 id=&quot;priciple-19-match-the-keyboard-with-the-required-text-inputs&quot;&gt;Priciple 19: Match the keyboard with the required text inputs.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;: App users appreciate apps that provide an appropriate keyboard for text entry.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Good Example&lt;/strong&gt;: When creating a new contact in iOS’s &lt;em&gt;Contacts&lt;/em&gt; app, the keyboard for fields differ. The phone number entry is a phone keypad, the email keyboard includes an @ symbol next to the space bar, and the URL keyboard includes no space and instead has ., / and .com shortcuts.&lt;/p&gt;
+
+&lt;h2 id=&quot;principle-24-let-the-user-control-the-level-of-zoom&quot;&gt;Principle 24: Let the user control the level of zoom.&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;Summary&lt;/strong&gt;: Users want to be able to control the level of zoom when they view an image. They can become frustrated by apps that zoom in at a preedetermined magnification level. In particular, wee see instances of this when the zoomed-in view forces the user to look at a specific part of the item or takes the image partially off-screen. Put users in control by allowing them to zoom in as they prefer.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Bad example&lt;/strong&gt;: Instagram does not allow users to have full zoom control. You can pinch in a bit but as soon as you let go the image snaps back to its original zoom level.&lt;/p&gt;</content><author><name></name></author><summary type="html">As my Mobile App Development course is moving on from Swift and iOS development to Kotlin and Android development, we were asked to read Principles of Mobile App Design: Engage Users and Drive Conversions by Jenny Gove, the UX Research Lead at Google.</summary></entry><entry><title type="html">Mobile App Dev Project Milestone 4</title><link href="kaischuygon.github.io/blog/2021/10/19/project-milestone-4.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 4" /><published>2021-10-19T00:00:00-06:00</published><updated>2021-10-19T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/10/19/project-milestone-4</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/10/19/project-milestone-4.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;app-description&quot;&gt;App Description&lt;/h3&gt;
+&lt;p&gt;For this project, I decided to create a triadic color calculator. The user inputs a color (in hexadecimal or rgb sliders) and the app calculate triadic colors based off the input.&lt;/p&gt;
+
+&lt;h3 id=&quot;mvp-minimum-viable-product&quot;&gt;MVP (Minimum Viable Product)&lt;/h3&gt;
+&lt;p&gt;The minimum functionality I outlined my app would meet is the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Users will be able to enter a color using either hex codes or rgb sliders.&lt;/li&gt;
+  &lt;li&gt;The app will calculate 2 colors from the user’s input.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;process&quot;&gt;Process&lt;/h3&gt;
+&lt;p&gt;I am proud of the app I was able to create with the time I was given, but reflecting back there are definetely things I could improve on before the next project.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Creative Approach
+    &lt;ul&gt;
+      &lt;li&gt;The hardest part creatively for me was definetely coming up with the concept of the app. My knowledge of iOS development definetely limited the app I could make but I think my MVP is a good starting point towards creating an app I could build upon as I continue learning app development.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Tactical Approach
+    &lt;ul&gt;
+      &lt;li&gt;I first started my app by creating the layout of the app in a storyboard. This included adding all the visual elements as well as adding  constraints so the layout would work in multiple size screens in portrait mode.&lt;/li&gt;
+      &lt;li&gt;I then added connected outlets and actions to the &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ViewController.swift&lt;/code&gt; and constrained the user’s input to the values the app will be able to support.&lt;/li&gt;
+      &lt;li&gt;Then I implemented the hex to rgb algorithm so that when the sliders update, the text input updated to match, and vice-versa.&lt;/li&gt;
+      &lt;li&gt;I then implemented a the triadic color algorithm based off some color theory I read up on. I shifted the rgb values twice as follows:&lt;/li&gt;
+    &lt;/ul&gt;
+
+    &lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;  &lt;span class=&quot;cp&quot;&gt;# First calculation:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;rgb&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;brg&lt;/span&gt;
+  &lt;span class=&quot;cp&quot;&gt;# Second calcuation:&lt;/span&gt;
+  &lt;span class=&quot;n&quot;&gt;brg&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;gbr&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;    &lt;/div&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Finally, I went back to the storyboard and added constraints to make the application responsive to landscape mode on multiple different screen sizes.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Time allotment
+    &lt;ul&gt;
+      &lt;li&gt;Most of my time for this project was spent on translating hex to rgb, largely because of my infamilarity with Swift.&lt;/li&gt;
+      &lt;li&gt;Another aspect of the project that took a long time was deciding on a algorithm to calculate triadic colors. There are multiple methods for doing this and I spent a long time trying to implement the first solution I found on Google which ended up being a lot more involved than it needed to be.&lt;/li&gt;
+      &lt;li&gt;I was able to get the storyboard done fairly quickly by looking back on class examples.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;reflection&quot;&gt;Reflection&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Things that went well:
+    &lt;ul&gt;
+      &lt;li&gt;I think that the implementation of the color calculate&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Things that didn’t go well:
+    &lt;ul&gt;
+      &lt;li&gt;I started the project too late to create a great UI, the app is definietely usable but lacks a unique UI.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;priorities-for-future-projects&quot;&gt;Priorities for future projects&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;Focus on the UI a lot more, it’s arguably just as important as the functionality of the application.&lt;/li&gt;
+  &lt;li&gt;Come up with a more creative app idea.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.</summary></entry><entry><title type="html">Mobile App Dev Project Milestone 2</title><link href="kaischuygon.github.io/blog/2021/09/27/project-milestone-2.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 2" /><published>2021-09-27T00:00:00-06:00</published><updated>2021-09-27T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/27/project-milestone-2</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/27/project-milestone-2.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;app-description&quot;&gt;App Description&lt;/h3&gt;
+&lt;p&gt;Originally, I planned to create a complementary color generator. I decided to switch to a a triadic color generator so there would be 3 colors total instead of 2. The user will input a color (in hexadecimal or rgb) and the app will calculate triadic colors.&lt;/p&gt;
+
+&lt;h3 id=&quot;mvp-minimum-viable-product&quot;&gt;MVP (Minimum Viable Product)&lt;/h3&gt;
+&lt;p&gt;The minimum functionality my app will meet is the following:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Users will be able to enter a color using either hex codes or rgb sliders.&lt;/li&gt;
+  &lt;li&gt;The app will calculate 2 colors from the user’s input.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;triadic-color-computation&quot;&gt;Triadic color computation&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;When I came up with this app idea, I planned to find an algorithm online to calculate triadic colors.&lt;/li&gt;
+  &lt;li&gt;I was unable to find anything that does exactly what I want, but I read up on some color theory to come up the following pseudocode algorithm:&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;div class=&quot;language-swift highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;kd&quot;&gt;func&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;calculateTriad&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;c1&quot;&gt;// get rgb values from hex (can also be used to update sliders after user input)&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;red&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;green&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;3&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt; 
+    &lt;span class=&quot;n&quot;&gt;blue&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;hex&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;4&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt;&lt;span class=&quot;mi&quot;&gt;5&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;]&lt;/span&gt;
+
+    &lt;span class=&quot;c1&quot;&gt;// add and subtract by 85 (255 / 3), wrapping around if 0 or 255 is reached&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;color1&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;add85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;add85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt;
+    &lt;span class=&quot;n&quot;&gt;color2&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nf&quot;&gt;sub85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sub85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;green&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;),&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;sub85&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;blue&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;))&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// add85 and sub85 deal with wrap around.&lt;/span&gt;
+
+    &lt;span class=&quot;nf&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;n&quot;&gt;color1&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;color2&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;c1&quot;&gt;// returns in rgb format&lt;/span&gt;
+&lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;potential-problems-thus-far&quot;&gt;Potential problems thus far&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I am having trouble adding complexity to my idea and am worried my app idea may be too simple.&lt;/li&gt;
+  &lt;li&gt;It may be harder to implement a triad algorithm than I think it will be&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prototype&quot;&gt;Prototype&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I created the following prototype with figma showing a simple version of my planned layout.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;iframe style=&quot;border: 1px solid rgba(0, 0, 0, 0.1);&quot; width=&quot;100%&quot; height=&quot;800px&quot; src=&quot;https://www.figma.com/embed?embed_host=share&amp;amp;url=https%3A%2F%2Fwww.figma.com%2Fproto%2F7lHdeYU4dRkmKiIpOeGhOK%2FTriad%3Fnode-id%3D5%253A41%26scaling%3Dscale-down%26page-id%3D0%253A1%26starting-point-node-id%3D5%253A41%26show-proto-sidebar%3D1&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;</content><author><name></name></author><summary type="html">The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.</summary></entry><entry><title type="html">Mobile App Dev Project Milestone 1</title><link href="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html" rel="alternate" type="text/html" title="Mobile App Dev Project Milestone 1" /><published>2021-09-20T00:00:00-06:00</published><updated>2021-09-20T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/20/project-milestone-1</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/20/project-milestone-1.html">&lt;p&gt;The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.&lt;/p&gt;
+
+&lt;h3 id=&quot;app-description&quot;&gt;App Description&lt;/h3&gt;
+&lt;p&gt;I will be building a complementary color generator. The user will input a color (in hexadecimal or rgb) and the app will calculate complementary colors.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;My inspiration
+    &lt;ul&gt;
+      &lt;li&gt;Whenever I’m writing css or using photoshop, I constantly have to lookup complementary colors to generate a cohesive theme for my designs. I usually have a primary color I base my design around so having a way to easily generate colors would be very helpful.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Goals
+    &lt;ul&gt;
+      &lt;li&gt;I want to have an app that calculates complementary colors automatically and shows how the colors would look put next to and in front of each other.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;intended-audience&quot;&gt;Intended Audience&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;The intended audience is designers and digital artists.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;similar-apps&quot;&gt;Similar Apps&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;A website I use currently is &lt;a href=&quot;https://color.adobe.com/&quot;&gt;Adobe Color&lt;/a&gt;. This calculates complementary colors but I find it slow to use and requires users to sign into an account.&lt;/li&gt;
+  &lt;li&gt;There doesn’t seem to be an iPhone app that calculates complementary colors.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;sources&quot;&gt;Sources&lt;/h3&gt;
+&lt;ul&gt;
+  &lt;li&gt;I will most likely look up algorithms to calculate the complementary colors depending on how difficult I find it.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;prototype&quot;&gt;Prototype&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&quot;../../../img/project1paperprototype.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;</content><author><name></name></author><summary type="html">The first project for my mobile app development course is to create a single view interactive iOS app. It can include apps that perform a calculation, respond to user input or selections, or respond to events in the app. We were encouraged to be creative and focus on design and user interaction.</summary></entry><entry><title type="html">Essential Design Principles</title><link href="kaischuygon.github.io/blog/2021/09/13/essential-design-principles.html" rel="alternate" type="text/html" title="Essential Design Principles" /><published>2021-09-13T00:00:00-06:00</published><updated>2021-09-13T00:00:00-06:00</updated><id>kaischuygon.github.io/blog/2021/09/13/essential-design-principles</id><content type="html" xml:base="kaischuygon.github.io/blog/2021/09/13/essential-design-principles.html">&lt;p&gt;Video link: &lt;a href=&quot;https://developer.apple.com/videos/play/wwdc2017/802/&quot;&gt;Essential Design Principles&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;the-principles&quot;&gt;The Principles:&lt;/h2&gt;
+&lt;ol&gt;
+  &lt;li&gt;Wayfinding
+    &lt;ul&gt;
+      &lt;li&gt;Help people to orient themselves&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Feedback
+    &lt;ul&gt;
+      &lt;li&gt;Answer people’s unasked questions&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Visibility
+    &lt;ul&gt;
+      &lt;li&gt;The usability is greatly improved when feedback and controls are clearly visible
+    - Has to be weighed against other considerations, such as clutter&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Consistency
+    &lt;ul&gt;
+      &lt;li&gt;Representing similar design features in similar ways&lt;/li&gt;
+      &lt;li&gt;Inconsistency undermines usability&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mental model
+    &lt;ul&gt;
+      &lt;li&gt;Oversimplifications of how systems should work, developed from personal experience so everyone’s is unique.&lt;/li&gt;
+      &lt;li&gt;How things work and how things should react to interactions&lt;/li&gt;
+      &lt;li&gt;When a system matches out mental model, we subconsciously percieve it as inuitive&lt;/li&gt;
+      &lt;li&gt;When a system does not match our mental model, we notice it is unintuitive&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Proximity
+    &lt;ul&gt;
+      &lt;li&gt;Distance between control and objects it affects.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Grouping
+    &lt;ul&gt;
+      &lt;li&gt;Similar controls are close togeather&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Mapping
+    &lt;ul&gt;
+      &lt;li&gt;How controls are arranged relative to each other.&lt;/li&gt;
+      &lt;li&gt;Controls resemble what they affect.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Affordance
+    &lt;ul&gt;
+      &lt;li&gt;Visual and tactile cues a control affords to us.&lt;/li&gt;
+      &lt;li&gt;Progressive disclosure
+        &lt;ul&gt;
+          &lt;li&gt;Technique for managing complexity.&lt;/li&gt;
+          &lt;li&gt;Gradually eases from simple to more complex&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+      &lt;li&gt;Hiding away complexity so people can make quick actions with no distractions.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;80/20 Rule
+    &lt;ul&gt;
+      &lt;li&gt;80% of systems effects come from 20% of it’s pauses&lt;/li&gt;
+      &lt;li&gt;Not all functionality is used. The least used functionality should be hidden to allow more space for the most used features.&lt;/li&gt;
+      &lt;li&gt;It reduces clutter and simplifies decision making&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Symmetry
+    &lt;ul&gt;
+      &lt;li&gt;Reflectional, transational and rotational symmetry.&lt;/li&gt;
+      &lt;li&gt;Gives sense of order and balance&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;good-examples-of-essential-design-principles&quot;&gt;Good examples of Essential Design Principles&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/story/id1556284268&quot;&gt;Apollo&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I’ve used Apollo for a while even though there are plenty of other Reddit clients for iPhone. I keep coming back to Apollo because of how consistent it is with Apple’s design guidelines.&lt;/li&gt;
+  &lt;li&gt;Apollo has a great grouping. The upvote and downvote buttons are near each other, it’s very consistent with other iOS apps, has great wayfinding in the way of back buttons and tabs, and it hides complexity but allows experienced users to get the comples actions through gestures.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/spotify-discover-new-music/id324684580&quot;&gt;Spotify&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Spotify on iOS is a way better experience than Spotify on Android.&lt;/li&gt;
+  &lt;li&gt;Spotify uses grouping very effectively. The song currently playing shows up at the bottom, along with controls to play/pause and skip tracks. The wayfinding is also intuitive and allows users to get back to the home page very quickly.&lt;/li&gt;
+  &lt;li&gt;Spotify also manages complexity well by the use of gestures. Being able to queue songs by swiping right is very effectively.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/us/app/transit-bus-subway-times/id498151501&quot;&gt;Transit&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I use this app daily in order to check bus times around Boulder.&lt;/li&gt;
+  &lt;li&gt;This app has great visibility and affordance. You can see all the information you could want from a public transit app right away which saves a lot of time, but not too much that it gets distracted.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apps.apple.com/lc/app/tiktok/id835599320&quot;&gt;TikTok&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Since TikTok is mainly video-based, it can be easy to make the app feel cluttered but the app does a good job of having full video but not covering it up.&lt;/li&gt;
+  &lt;li&gt;The app has good grouping. The options to subscribe, like , comment and share are all right next to each other so you know they all relate to the current video on screen. The bottom area of the app allows users to navigate across pages.&lt;/li&gt;
+&lt;/ul&gt;</content><author><name></name></author><summary type="html">Video link: Essential Design Principles</summary></entry></feed>
